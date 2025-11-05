@@ -20,10 +20,13 @@ h1 {
     font-size: 50px;
 }
 #options {
-    margin-top: 20px;
-    display: flex;
-    gap: 20px;
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  justify-items: center;
 }
+
 img {
     width: 150px;
 }
